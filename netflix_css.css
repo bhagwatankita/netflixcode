@@ -1,0 +1,645 @@
+
+
+.backgr{
+	background-color:black;
+	padding-bottom:3vw;
+	padding-top:3vw;
+}
+
+
+.accorcolor{
+	background-color:#black;
+}
+
+.jointxt{
+	color:white;
+	font-size: 2vw;
+}
+
+
+.jointxt2{
+	color:white;
+	font-size: 1.5vw;
+	margin-top:11px;
+}
+
+/*Accordion in orange color*/
+.accordion {
+  background-color: gray;
+  color:#FFFFFF;
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  transition: 0.4s;
+  font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 1.25vw;
+  outline:none !important;
+border: none !important;
+}
+
+.active, .accordion:hover {
+  background-color: gray;
+  border:none;
+  outline:none !important;
+border: none !important;
+color:white;
+
+}
+
+.accordion:after {
+  content: "+";
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+    outline:none !important;
+border: none !important;
+
+}
+
+.active:after {
+  content: "-";
+  font-size:10px;
+    outline:none !important;
+border: none !important;
+
+}
+
+.panel {
+ padding: 0 18px;
+ background-color:gray;
+ max-height: 0;
+ overflow: hidden;
+ transition: max-height 0.2s ease-out;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 0.972vw;
+color: white;
+}
+
+
+.accordion1 {
+  background-color: gray;
+  color:white;
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  transition: 0.4s;
+  font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 1.25vw;
+  outline:none !important;
+border: none !important;
+}
+
+.active, .accordion1:hover {
+  border:none;
+  outline:none !important;
+border: none !important;
+color: white;
+}
+
+.accordion1:after {
+  content: "+";
+  float: right;
+  margin-left: 5px;
+    outline:none !important;
+border: none !important;
+
+}
+
+.active:after {
+  content: "-";
+    outline:none !important;
+border: none !important;
+}
+
+.panel1 {
+ padding: 0 18px;
+ background-color: #FFF6F0;
+ max-height: 0;
+ overflow: hidden;
+ transition: max-height 0.2s ease-out;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 0.972vw;
+color: #777777;
+}
+
+
+@media screen and (max-width:1440px)
+{
+	
+	.textcard2{
+	color:white;
+	font-family: sans-serif;
+	font-size: 4vw;
+	font-weight: 700;
+	margin-top:150px;
+	padding-top:5px;
+	}
+
+	.transbutton{
+	        background-color: rgba(0,0,0,0.5);
+    opacity: 0.3px;
+    color: white;
+    padding: 6px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+    border: gray;
+    margin-left: 78px;
+	}	
+	
+	.transemail{
+	background-color:rgba(0,0,0,0.5);
+	opacity:0.3px;
+	color:white;
+	padding:13px;
+	}
+	
+	.btnred{
+	    padding: 13px;
+    margin-top: -8px;
+    padding-left: 20px;
+    padding-right: 20px;
+	}
+	
+	.textcard3{
+	color: white;
+    font-family: sans-serif;
+    font-size: 4vw;
+    font-weight: 700;
+    margin-top: 134px;
+    padding-top: 0px;
+	}
+	
+	.2jointxt2{
+		color:white;
+	font-size: 1.5vw;
+	}
+	
+	.transemail2{
+	background-color: rgba(0,0,0,0.5);
+    opacity: 0.3px;
+    color: white;
+    padding: 13px;
+    margin-left: -76px;	
+	}
+	
+	
+	.btnred2{
+	    padding: 13px;
+    margin-top: -8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: -81px;
+	}
+	
+	.transbutton2{
+	    background-color: rgba(0,0,0,0.5);
+    opacity: 0.3px;
+    color: white;
+    padding: 6px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+    border: gray;
+        margin-left: -25px;
+	}
+	
+	.dangerbtnred{
+		padding:4px;
+		margin-left:10px;
+		padding-right:10px;
+		padding-left:10px;
+		margin-top: 18px;
+	}
+	
+	.textcard6{
+	color:white;
+	font-family: sans-serif;
+	font-size:3.3vw;
+	font-weight: 750;
+}
+}
+
+@media screen and (max-width:1024px)
+{
+	
+	.textcard2{
+	color:white;
+	font-family: sans-serif;
+	font-size: 4vw;
+	font-weight: 700;
+	margin-top:120px;
+	padding-top:5px;
+	}
+	
+		.transbutton{
+	background-color:rgba(0,0,0,0.5);
+	opacity:0.3px;
+	color:white;
+	padding:6px;
+	padding-left:15px;
+	padding-right:15px;
+	border-radius:5px;
+	border:gray;
+	margin-left:32px;
+    }
+	.transemail{
+	background-color:rgba(0,0,0,0.5);
+	opacity:0.3px;
+	color:white;
+	padding:13px;
+	}
+	
+	.btnred{
+	padding: 13px;
+    margin-top: -8px;
+    padding-left: 20px;
+    padding-right: 20px;
+	}
+		
+	.textcard3{
+	color:white;
+	font-family: sans-serif;
+	font-size: 4vw;
+	font-weight: 700;
+	margin-top:100px;
+	padding-top:5px;
+	}
+	.2jointxt2{
+		color:white;
+	font-size: 1.5vw;
+	}
+	
+	.transemail2{
+	 background-color:rgba(0,0,0,0.5);
+	opacity:0.3px;
+	color:white;
+	padding:13px;	
+	}
+	
+	.btnred2{
+		  padding: 13px;
+    margin-top: -8px;
+    padding-left: 20px;
+    padding-right: 20px;
+	}
+	
+		.dangerbtnred{
+		padding:4px;
+		margin-left:10px;
+		padding-right:10px;
+		padding-left:10px;
+		
+	}
+	
+	.textcard6{
+	color:white;
+	font-family: sans-serif;
+	font-size:3.3vw;
+	font-weight: 750;
+}
+}
+@media screen and (max-width:786px)
+{
+	.textcard2{
+	color:white;
+	font-family: sans-serif;
+	font-size: 4vw;
+	font-weight: 700;
+	margin-top:100px;
+	padding-top:5px;
+	}
+	
+	.transbutton{
+	background-color:rgba(0,0,0,0.5);
+	opacity:0.3px;
+	color:white;
+	padding:6px;
+	padding-left:15px;
+	padding-right:15px;
+	border-radius:5px;
+	border:gray;
+	margin-left:-12px;
+	}
+	.transemail{
+	    background-color: rgba(0,0,0,0.5);
+    opacity: 0.3px;
+    color: white;
+    padding: 7px;
+    margin-top: -10px;
+	}
+     
+	.btnred{
+	padding: 8px;
+    margin-top: -55px;
+    padding-left: 4px;
+    padding-right: 0px;
+	}	
+		
+	.textcard3{
+	color:white;
+	font-family: sans-serif;
+	font-size: 4vw;
+	font-weight: 700;
+	margin-top: 81px;
+	padding-top:5px;
+	}
+	.2jointxt2{
+		color:white;
+	font-size: 1.5vw;
+	}
+	
+	.transemail2{
+	 background-color:rgba(0,0,0,0.5);
+	opacity:0.3px;
+	color:white;
+	padding:13px;	
+	}
+	
+	.btnred2{
+		  padding: 13px;
+    margin-top: -8px;
+    padding-left: 20px;
+    padding-right: 20px;
+	}
+	
+		.dangerbtnred{
+		padding:4px;
+		margin-left:10px;
+		padding-right:10px;
+		padding-left:10px;
+		
+	}
+	.textcard6{
+	color:white;
+	font-family: sans-serif;
+	font-size:3.3vw;
+	font-weight: 750;
+}
+}
+
+@media screen and (max-width:425px)
+{
+	
+	.textcard2{
+	    color: white;
+    font-family: sans-serif;
+    font-size: 4vw;
+    font-weight: 700;
+    margin-top: 10px;
+    padding-top: -1px;
+	}
+	
+	.transbutton{
+    background-color: rgba(0,0,0,0.5);
+    opacity: 0.3px;
+    color: white;
+    padding: 0px;
+    padding-left: 0px;
+    padding-right: 8px;
+    border-radius: 5px;
+    border: gray;
+    margin-left: -50px;
+    padding-top: -4px;
+    margin-top: -28px;
+	}
+	
+	.transemail{
+    background-color: rgba(0,0,0,0.5);
+    opacity: 0.3px;
+    color: white;
+    padding: 0px;
+    margin-top: -18px;
+    padding-left: 4px;
+    font-size: 14px;
+	}
+	
+	.btnred{
+	    padding: 0px;
+    margin-top: -88px;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-size: 8px;
+	}
+	
+	.textcard3{
+	color:white;
+	font-family: sans-serif;
+	font-size: 4vw;
+	font-weight: 700;
+	margin-top:50px;
+	padding-top:5px;
+    }
+
+    .2jointxt2{
+		color:white;
+	font-size: 1.5vw;
+	}	
+	.transemail2{
+	 background-color:rgba(0,0,0,0.5);
+	opacity:0.3px;
+	color:white;
+	padding:13px;	
+	}
+	
+	.btnred2{
+		  padding: 13px;
+    margin-top: -8px;
+    padding-left: 20px;
+    padding-right: 20px;
+	}
+	
+		.dangerbtnred{
+		padding: 4px;
+    margin-left: 10px;
+    padding-right: 3px;
+    padding-left: 3px;
+    font-size: 9px;
+    margin-bottom: 37px;
+    margin-top: 3px;
+}
+		
+	.textcard6{
+	color:white;
+	font-family: sans-serif;
+	    font-size: 3.1vw;
+	font-weight: 750;
+}
+}
+@media screen and (max-width:375px)
+{
+	.textcard2{
+	    color: white;
+    font-family: sans-serif;
+    font-size: 4vw;
+    font-weight: 700;
+    margin-top: -12px;
+    padding-top: 8px;
+	}
+	
+	.transbutton{
+	background-color: rgba(0,0,0,0.5);
+    opacity: 0.3px;
+    color: white;
+    padding: 6px;
+    padding-left: 0px;
+    padding-right: 8px;
+    border-radius: 5px;
+    border: gray;
+	padding-top: 0px;
+    padding-bottom: 0px;
+	}
+	
+	.transemail{
+	    background-color: rgba(0,0,0,0.5);
+    opacity: 0.3px;
+    color: white;
+    padding: 1px;
+    margin-top: -18px;
+    padding-right: 2px;
+    padding-left: 5px;
+    font-size: 10px
+	}
+	
+	.btnred{
+	padding: 7px;
+    margin-top: -94px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 4px;
+	}
+	
+	.textcard3{
+	color:white;
+	font-family: sans-serif;
+	font-size: 4vw;
+	font-weight: 700;
+	margin-top:50px;
+	padding-top:5px;
+	}
+	.2jointxt2{
+		color:white;
+	font-size: 1.5vw;
+	}
+	.transemail2{
+	 background-color:rgba(0,0,0,0.5);
+	opacity:0.3px;
+	color:white;
+	padding:13px;	
+	}
+	.btnred2{
+		  padding: 13px;
+    margin-top: -8px;
+    padding-left: 20px;
+    padding-right: 20px;
+	}
+	
+		.dangerbtnred{
+		    padding: 7px;
+    margin-left: 10px;
+    padding-right: 5px;
+    padding-left: 4px;
+    font-size: 5px;
+		
+	}
+	
+	.textcard6{
+	color:white;
+	font-family: sans-serif;
+	font-size:3.3vw;
+	font-weight: 750;
+}
+}
+@media screen and (max-width:320px)
+{
+	.textcard2{
+	    color: white;
+    font-family: sans-serif;
+    font-size: 4vw;
+    font-weight: 700;
+    margin-top: -25px;
+    padding-top: 7px;
+	}
+	
+	.transbutton{
+	background-color: rgba(0,0,0,0.5);
+    opacity: 0.3px;
+    color: white;
+    padding: 0px;
+    padding-left: 1px;
+    padding-right: 1px;
+    border-radius: 5px;
+    border: gray;
+	}
+
+	
+	.transemail{
+	background-color: rgba(0,0,0,0.5);
+    opacity: 0.3px;
+    color: white;
+    padding: 0px;
+    margin-top: -22px;
+	}
+	
+	.btnred{
+	    padding: 2px;
+    margin-top: -105px;
+    padding-left: 3px;
+    padding-right: 3px;
+
+	}
+	
+	.textcard3{
+	color:white;
+	font-family: sans-serif;
+	font-size: 4vw;
+	font-weight: 700;
+	margin-top:50px;
+	padding-top:5px;
+	}
+	.2jointxt2{
+		color:white;
+	font-size: 1.5vw;
+	}
+	
+	.transemail2{
+	 background-color:rgba(0,0,0,0.5);
+	opacity:0.3px;
+	color:white;
+	padding:13px;	
+	}
+	
+	.btnred2{
+		  padding: 13px;
+    margin-top: -8px;
+    padding-left: 20px;
+    padding-right: 20px;
+	}
+	
+		.dangerbtnred{
+		padding:4px;
+		margin-left:10px;
+		padding-right:10px;
+		padding-left:10px;
+		
+	}
+	
+	.textcard6{
+	color: white;
+    font-family: sans-serif;
+    font-size: 2.3vw;
+    font-weight: 750;
+}
+}
